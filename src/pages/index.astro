@@ -1,0 +1,152 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+  <section id="bio">
+    <div class="center">
+      <h3>Redger Xu</h3>
+      <img
+        src="/me.jpg"
+        height="320"
+        alt="Redger Xu (mogger)"
+        style="width: auto"
+      />
+      <p style="text-align: center">
+        Majoring in <a href="https://eecs.berkeley.edu">EECS</a> at UC
+        Berkeley. Currently focusing on cybersecurity, Linux, and LLMs.
+      </p>
+      <p style="text-align: center">
+        <a href="https://github.com/regarager" target="_blank">GitHub</a> |
+        <a href="mailto:redgerxu@berkeley.edu" target="_blank">Email</a> |
+        <a href="/resume.pdf" target="_blank">Resume</a>
+      </p>
+    </div>
+  </section>
+
+  <section id="current-projects">
+    <h3>currently working on</h3>
+    <ul>
+      <li>
+        <a href="https://github.com/regarager/rust-llm">rust-llm</a> — a LLM
+        written completely from scratch in Rust, based on GPT-2
+      </li>
+    </ul>
+  </section>
+
+  <section id="past-projects">
+    <h3>past projects</h3>
+    <ul>
+      <li>
+        <a href="https://github.com/regarager/clash-ai">clash-ai</a>
+        <ul>
+          <li>
+            Reduced screen-capture latency from &asymp;200 ms to &asymp;30 ms
+            using
+            <a href="https://github.com/openstf/minicap" target="_blank"
+            >minicap</a
+            >
+            over
+            <a href="https://developer.android.com/tools/adb" target="_blank"
+            >ADB</a
+            >, enabling real-time perception–action loops
+          </li>
+          <li>
+            Trained a PPO agent with multi-head attention and action masking;
+            implemented YOLOv11 + dHash for real-time unit and card detection
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="https://github.com/regarager/intbee">intbee</a>
+        <ul>
+          <li>
+            Built real-time contest platform with WebSocket matchmaking,
+            bidirectional state sync, and JWT/Argon2 authentication
+          </li>
+          <li>
+            Developed LaTeX-rendered problem banks, configurable leaderboards,
+            and a tag‑based markdown wiki stored on MongoDB
+          </li>
+        </ul>
+      </li>
+      <li>
+        <span>MaLO</span>
+        <ul>
+          <li>
+            Developed OpenRouter benchmarking harness controlling prompts,
+            temperature, and other parameters across 5+ LLMs
+          </li>
+          <li>
+            Containerized pipeline with Docker for reproducibility and
+            automated orchestration to eliminate manual intervention
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section id="awards">
+    <h3>awards</h3>
+    <ul>
+      <li>
+        <a href="https://nationalcyberleague.org/">NCL</a> (Fall '25) – 2nd
+        individually out of 1,000+ in the high school division
+      </li>
+      <li>
+        <a href="https://nationalcyberleague.org/">NCL</a> (Fall '24) – 4th in
+        the high school team round
+      </li>
+      <li>
+        <a href="https://picoctf.org">picoCTF</a> 2025 – top 3% of HS teams
+      </li>
+      <li>
+        <a href="https://ctf.scriptsorcerers.xyz/">scriptCTF</a> 2025 – top 6%
+        of HS teams
+      </li>
+    </ul>
+  </section>
+
+  <section id="mini-projects">
+    <h3>mini projects</h3>
+    <ul>
+      <li>
+        <a href="https://github.com/regarager/shiko-prompt">shiko-prompt</a> —
+        a minimal zsh prompt built in Rust
+      </li>
+      <li>
+        <a href="https://github.com/regarager/dotfiles">dotfiles</a> — the
+        configuration for my Arch Linux + Hyprland workflow.
+      </li>
+    </ul>
+  </section>
+
+  <section id="other">
+    <h3>other info</h3>
+    <ul>
+      <li>
+        I attended Stratford Preparatory Blackford, where I served as
+        co-captain of the cybersecurity club, captain of the tennis team,
+        salutatorian, and head organizer of the (somewhat) widely beloved
+        Stratford Integration Bee.
+      </li>
+      <li>
+        I was briefly featured on
+        <a href="https://www.youtube.com/watch?v=v4_3oLZulk4">bprp fast</a>.
+      </li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h3>contact</h3>
+    You can reach out via email at
+    <a href="mailto:redgerxu@berkeley.edu">redgerxu@berkeley.edu</a>. My
+    projects can be found on
+    <a href="https://github.com/regarager" target="_blank">my GitHub</a>.
+  </section>
+
+  <section id="coming-soon">
+    <h3>more things coming soon :D</h3>
+  </section>
+
+</Layout>
